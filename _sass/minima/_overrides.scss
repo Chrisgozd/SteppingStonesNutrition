@@ -1,0 +1,56 @@
+.info-header {
+  background-color: #39B1AB;
+  height: 35px;
+  line-height: 35px;
+  text-align: right;
+  flex: 0 1 auto;
+  color: white;
+  font-size:13px;
+  line-height: 30px;
+
+  // Positioning context for the mobile navigation icon
+  position: relative;
+}
+
+.info-header img.facebook-icon {
+  height: 30px;
+}
+
+.info-header img.pinterest-icon {
+  height: 23px; 
+  margin-right: 8px;
+}
+
+.info-header a {
+  text-decoration: none;
+  color: white;
+}
+
+.info-header a:hover {
+  text-decoration: underline;
+  color: white;
+}
+
+.relative-wrapper {
+	position: relative;
+	display: inline-block;
+	height: 100px;
+	width: 100%;
+}
+
+.biography-wrapper {
+  margin-top: 40px;
+
+  h2 {
+    color: #39B1AB;
+    font-weight: bold;
+  }
+
+  p {
+    font-size: 13px;
+  }
+
+  img {
+    margin: 15px;
+  }
+}
