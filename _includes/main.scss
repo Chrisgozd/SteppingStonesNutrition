@@ -19,19 +19,19 @@ $grey-color-light: lighten($grey-color, 40%) !default;
 $grey-color-dark:  darken($grey-color, 25%) !default;
 
 // Width of the content area
-$content-width:    800px !default;
-
-$on-palm:          600px !default;
-$on-laptop:        800px !default;
+$on-phone:              400px;
+$on-small:              800px;
+$on-big:                1500px;
 
 @mixin media-query($device) {
-  @media screen and (max-width: $device) {
-    @content;
-  }
+    @media screen and (max-width: $device) {
+        @content;
+    }
 }
-
-@mixin relative-font-size($ratio) {
-  font-size: $base-font-size * $ratio;
+@mixin media-query-min($device) {
+    @media screen and (min-width: $device) {
+        @content;
+    }
 }
 
 // Import partials.
