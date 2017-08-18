@@ -166,6 +166,10 @@ pre {
   padding-right: $spacing-unit;
   padding-left: $spacing-unit;
   @extend %clearfix;
+      @include media-query($on-small) {
+          padding-left: 15px;
+          padding-right: 15px;
+        }
 }
 
 
