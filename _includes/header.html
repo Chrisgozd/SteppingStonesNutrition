@@ -1,36 +1,36 @@
 <header class="info-header">
   <div class="wrapper">
-    <a><img src="{{site.baseUrl}}/images/facebook-white.svg" class="facebook-icon" /></a>
-    <a><img src="{{site.baseUrl}}/images/pinterest-white.svg" class="pinterest-icon" /></a>
+    <a href="#"><img src="{{site.baseurl}}/images/facebook-white.svg" class="facebook-icon" /></a>
+    <a href="#"><img src="{{site.baseurl}}/images/pinterest-white.svg" class="pinterest-icon" /></a>
     <a href="tel:+14147557837">Call at (414) 755-STEP (7837)</a>
   </div>
 </header>
 
 <header class="site-header">
   <div class="wrapper">
-    <a class="site-title" href="{{site.baseUrl}}">
-      <img class="logo" src="{{site.baseUrl}}/images/logo.svg" />
-      <h2>Stepping Stones Nutrition, LLC</h2>
+    <a class="site-title" href="{{site.baseurl}}/">
+      <img class="logo" src="{{site.baseurl}}/images/logo.svg" />
+      <h2>Stepping Stone Nutrition, LLC</h2>
     </a>
     <nav class="desktop">
       <ul>
-        <li><a href="{{site.baseUrl}}/biography">Biography</a></li>
-        <li><a href="{{site.baseUrl}}/pricing">Pricing</a></li>
-        <li><a href="{{site.baseUrl}}/contact">Contact Us</a></li>
+        <li><a href="{{site.baseurl}}/biography">Biography</a></li>
+        <li><a href="{{site.baseurl}}/pricing">Pricing</a></li>
+        <li><a href="{{site.baseurl}}/contact">Contact Us</a></li>
       </ul>
     </nav>
     <nav class="mobile">
       <select id="mobile-select">
-        <option value="{{site.baseUrl}}">Home</option>
+        <option value="{{site.baseurl}}/">Home</option>
         <option {% if page.section == 'biography' %}
                 selected
-                {% endif %} value="{{site.baseUrl}}/biography">Biography</option>
+                {% endif %} value="{{site.baseurl}}/biography">Biography</option>
         <option {% if page.section == 'pricing' %}
                 selected
-                {% endif %} value="{{site.baseUrl}}/pricing">Pricing</option>
+                {% endif %} value="{{site.baseurl}}/pricing">Pricing</option>
         <option {% if page.section == 'contact' %}
                 selected
-                {% endif %} value="{{site.baseUrl}}/contact">Contact Us</option>
+                {% endif %} value="{{site.baseurl}}/contact">Contact Us</option>
       </select>
     </nav>
   </div>
