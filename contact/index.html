@@ -1,5 +1,36 @@
 --- 
 layout: default 
-section: contact
+section: contact 
 ---
 
+<h2>
+  Contact Us
+</h2>
+
+<div style="display: flex;">
+  <div>
+    <p>Information about contacting us will go here Maybe it will say how long to wait before getting a response and stuff like
+      that.</p>
+
+    <form action="https://formspree.io/Chrisgozd92@gmail.com" method="POST" class="contact">
+      <label>
+    Name: 
+    <input type="text" name="name" />
+</label>
+      <label>
+    Email Address:
+    <input type="email" name="_replyto" />
+</label>
+      <label>
+    Phone Number:
+    <input type="text" name="phoneNumber" />
+</label>
+      <label>
+    Question/Comment:
+    <textarea name="message"></textarea>
+</label>
+      <input type="submit" value="Send">
+    </form>
+  </div>
+  <img src="{{site.baseurl}}/images/headshot.jpg" />
+</div>

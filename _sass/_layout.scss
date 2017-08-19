@@ -15,6 +15,9 @@
       align-items: center;
       font-weight: 300;
       margin-bottom: 0;
+      @include media-query($on-small) {
+          flex: 4;
+        }
       &,
       &:visited {
         color: $grey-color-dark;
@@ -184,6 +187,10 @@
     float: right;
     margin: 20px 15px 0 15px;
     width: 225px;
+
+     @include media-query($on-small) {
+          width: 125px;
+        }
   }
 }
 
@@ -222,3 +229,32 @@
 .post-content {
   margin-bottom: $spacing-unit;
 }
+
+form {
+        padding: 15px;
+        font-size: 14px;
+    max-width: 400px;
+    margin-left: 25px;
+
+        label {
+            display: block;
+            margin-bottom: 7px;
+        }
+        input[type="text"], input[type="email"] {
+            float: right;
+            border: 1px solid #7f7d78;
+            padding: 3px;
+            border-radius: 2px;
+        }
+        input[type="submit"] {
+            padding: 7px;
+            margin: 0 auto;
+            display: block;
+        }
+        textarea {
+            border-radius: 2px;
+            border: 1px solid #7f7d78;
+            width: 98%;
+            min-height: 75px;
+        }
+    }
