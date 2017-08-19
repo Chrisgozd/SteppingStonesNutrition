@@ -219,6 +219,9 @@
     float: none;
     margin: 0;
     margin-top: -200px;
+    @include media-query($on-small) {
+        margin-top: 0;
+      }
     }
 
     &.contact-img {
