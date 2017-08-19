@@ -282,6 +282,10 @@ form {
     max-width: 400px;
     margin: 0 auto;
 
+    @include media-query($on-small) {
+        padding: 5px;
+      }
+
         label {
             display: block;
             margin-bottom: 7px;
