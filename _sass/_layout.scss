@@ -188,9 +188,19 @@
     margin: 20px 15px 0 15px;
     width: 225px;
 
-     @include media-query($on-small) {
-          width: 125px;
-        }
+    &.contact-img {
+      width: auto;
+      height: 300px;
+      margin-top: -20px;
+
+      @include media-query($on-small) {
+        display: none;
+      }
+    }
+
+    @include media-query($on-small) {
+      width: 125px;
+    }
   }
 }
 
@@ -234,7 +244,7 @@ form {
         padding: 15px;
         font-size: 14px;
     max-width: 400px;
-    margin-left: 25px;
+    margin: 0 auto;
 
         label {
             display: block;
