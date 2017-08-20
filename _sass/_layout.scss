@@ -190,17 +190,15 @@
       width: 100%;
       margin: 0;
       background-position: center;
+    background-size: cover;
       &.img-1 {
         background-image: url($baseurl + '/images/grocery.jpg');
-        background-size: 210%;
       }
       &.img-2 {
         background-image: url($baseurl + '/images/lactation.jpg');
-        background-size: 105%;
       }
       &.img-3 {
         background-image: url($baseurl + '/images/cutting.jpg');
-        background-size: 120%;
       
       }
     }
