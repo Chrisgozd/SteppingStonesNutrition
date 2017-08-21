@@ -3,7 +3,10 @@ baseurl:
 title: Stepping Stone Nutrition, LLC
 author: Stepping Stone Nutrition, LLC
 email: your-email@domain.com
-description: 
+description: Stepping Stone Nutrition, LLC offers Nutrition, Wellness, and Lactation counseling to both individuals and businesses.
+url: www.steppingstonenutritionwi.com
+logo: /images/logo.svg
+
 repository: chrisgozd/steppingstonesnutrition.github.io
 
 # Minima date format
