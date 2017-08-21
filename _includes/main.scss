@@ -3,7 +3,7 @@
 // Define defaults for each variable.
 $baseurl: '{{ site.baseurl }}';
 
-$base-font-family: 'Open Sans', sans-serif;
+$base-font-family: Arial;
 $base-font-size:   16px !default;
 $base-font-weight: 400 !default;
 $small-font-size:  $base-font-size * 0.875 !default;
@@ -37,7 +37,6 @@ $on-big:                1500px;
 
 // Import partials.
 @import
-  "font-source-sans-pro",
   "base",
   "layout",
   "syntax-highlighting",
