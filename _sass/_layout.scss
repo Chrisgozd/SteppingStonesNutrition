@@ -214,21 +214,25 @@
     position: relative;
 
     h2 {
-      position: absolute;
-    margin: auto;
-    top: 0;
-    left:0;
-    right:0;
-    bottom:0;
-    color:#39B1AB;
-    background-color: rgba(255, 255, 255, 0.8);
-    text-transform: uppercase;
-    height:100px;
-	line-height: 50px;
+	    width: 100%;
+		position: absolute;
+		top: 0;
+		left: 0;
+		right: 0;
+		bottom: 0;
+		justify-content: center;
+		flex-direction: column;
+		align-items: center;
+		display: flex;
+		text-align: center;
+		margin: auto;
+		background-color: rgba(255,255,255,0.8);
+		text-transform: uppercase;
+		height: 100px;
+	
     @include media-query($on-small) {
         font-size: 16px;
         height: 50px;
-		line-height: auto;
       }
     }
 }
