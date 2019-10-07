@@ -1,4 +1,4 @@
-Stepping Stone Nutrition
+Stepping Stone Nutrition Website
 ================
 
 The current website for www.SteppingStoneNutritionWi.com
